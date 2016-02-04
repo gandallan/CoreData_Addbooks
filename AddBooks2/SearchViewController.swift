@@ -189,8 +189,7 @@ class SearchViewController: UIViewController {
         
     
         //ISBN
-        let ISBN:String = searchISBN.text!
-        let urls:String = "https://openlibrary.org/api/books?jscmd=data&format=json&bibkeys=ISBN:\(ISBN)"
+        let urls:String = "https://openlibrary.org/api/books?jscmd=data&format=json&bibkeys=ISBN:\(isbn)"
         let url = NSURL(string: urls)!
         let session = NSURLSession.sharedSession()
         
@@ -295,10 +294,7 @@ class SearchViewController: UIViewController {
                                     })
                                  
                                 }
-                                
-                                
-                                
-                              
+
                                 
                             }
                             
@@ -325,12 +321,6 @@ class SearchViewController: UIViewController {
         
         anadirLibroAlert("Confirmado", message: "Tu libro se ha añadido a tu lista con éxito")
         
-        /*
-        Titulos.append(bookTitle.text!)
-        print(Titulos)
-        
-        NSUserDefaults.standardUserDefaults().setObject(Titulos, forKey: "Titulos")
-        */
     }
     
 //************ function Alert
@@ -373,7 +363,5 @@ class SearchViewController: UIViewController {
         
     }
     
-
-
 
 }
