@@ -16,6 +16,7 @@
 		815B66011C4D767000F61698 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815B66001C4D767000F61698 /* SearchViewController.swift */; };
 		815B66051C4EA5EC00F61698 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815B66041C4EA5EC00F61698 /* DetailsViewController.swift */; };
 		815B66091C4F41E800F61698 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815B66081C4F41E800F61698 /* Model.swift */; };
+		81F256061C6338AC00FF8654 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F256051C6338AC00FF8654 /* ProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		815B66001C4D767000F61698 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		815B66041C4EA5EC00F61698 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		815B66081C4F41E800F61698 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		81F256051C6338AC00FF8654 /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				815B65F01C4CB38C00F61698 /* AddBooks2.xcdatamodeld */,
 				815B66081C4F41E800F61698 /* Model.swift */,
+				81F256051C6338AC00FF8654 /* ProgressView.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				815B65F21C4CB38C00F61698 /* AddBooks2.xcdatamodeld in Sources */,
 				815B66011C4D767000F61698 /* SearchViewController.swift in Sources */,
 				815B66091C4F41E800F61698 /* Model.swift in Sources */,
+				81F256061C6338AC00FF8654 /* ProgressView.swift in Sources */,
 				815B65EA1C4CB38C00F61698 /* AppDelegate.swift in Sources */,
 				815B66051C4EA5EC00F61698 /* DetailsViewController.swift in Sources */,
 			);
